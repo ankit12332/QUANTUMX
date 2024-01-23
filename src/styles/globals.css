@@ -2,3 +2,28 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+.custom-font-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.custom-font-medium {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.custom-font-regular {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.custom-carousel-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2px;
+}
+.custom-carousel-dot.active {
+    background-color: #FFFFFF;
+}
